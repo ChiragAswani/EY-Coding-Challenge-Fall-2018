@@ -8,6 +8,10 @@ NPM Packages:
 - mongodb
 - fs
 
+To import:
+- postman endpoints: test GET and POST commands
+- user profiles: user profiles collection to import into the EY mongodb 
+
 Naming conventions:
 - JavaScript - Camel Case
 - https://www.w3schools.com/js/js_conventions.asp

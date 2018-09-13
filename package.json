@@ -1,0 +1,30 @@
+{
+  "name": "ey-coding-challenge-fall-2018",
+  "version": "1.0.0",
+  "description": "wrote endpoints get and post",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "js-yaml": "^3.12.0",
+    "mongodb": "^3.1.4",
+    "mysql": "^2.16.0",
+    "node": "^10.10.0",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiragAswani/EY-Coding-Challenge-Fall-2018.git"
+  },
+  "author": "Chirag Aswani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChiragAswani/EY-Coding-Challenge-Fall-2018/issues"
+  },
+  "homepage": "https://github.com/ChiragAswani/EY-Coding-Challenge-Fall-2018#readme"
+}
