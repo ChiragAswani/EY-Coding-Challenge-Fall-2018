@@ -1,6 +1,8 @@
-Run ```npm install``` to install node modules
+1. Run ```npm install``` to install node modules
 
-Run node server.js
+2. Run ```node server.js``` to run node server
+
+3. Visit localhost:3000 or import the postman endpoints
 
 NPM Packages:
 - express
