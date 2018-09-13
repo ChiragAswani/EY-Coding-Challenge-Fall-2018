@@ -3,10 +3,10 @@ Run npm install
 Run node server.js
 
 NPM Packages:
-express
-uuid/v1
-mongodb
-fs
+- express
+- uuid/v1
+- mongodb
+- fs
 
 Naming conventions:
 JavaScript - Camel Case: https://www.w3schools.com/js/js_conventions.asp
