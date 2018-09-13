@@ -9,9 +9,9 @@ NPM Packages:
 - fs
 
 Naming conventions:
-JavaScript - Camel Case
+- JavaScript - Camel Case
 - https://www.w3schools.com/js/js_conventions.asp
-MongoDB - Camel Case
+- MongoDB - Camel Case
 - http://arkusnexus.com/2016/09/12/coding-guidelines-mongodb/
 
 Some Notes: 
