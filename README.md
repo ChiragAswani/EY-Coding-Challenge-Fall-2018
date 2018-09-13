@@ -9,8 +9,10 @@ NPM Packages:
 - fs
 
 Naming conventions:
-JavaScript - Camel Case: https://www.w3schools.com/js/js_conventions.asp
-MongoDB - Camel Case: http://arkusnexus.com/2016/09/12/coding-guidelines-mongodb/
+JavaScript - Camel Case
+- https://www.w3schools.com/js/js_conventions.asp
+MongoDB - Camel Case
+- http://arkusnexus.com/2016/09/12/coding-guidelines-mongodb/
 
 Some Notes: 
 - Database Choice: I chose mongoDB because none of the data I am working with has any relationships.
