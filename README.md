@@ -1,4 +1,4 @@
-Run npm install
+Run ```npm install``` to install node modules
 
 Run node server.js
 
@@ -11,6 +11,15 @@ NPM Packages:
 To import:
 - postman endpoints: test GET and POST commands
 - user profiles: user profiles collection to import into the EY mongodb 
+
+What to test for:
+- Bad URL to Mongo -> server should shut down
+- Bad key parameters to /profile/new -> 422 status
+- Bad value parameters to /profile/new -> 422 status
+- Username already exists to /profile/new -> 409 status
+- Good key, value parameters to /profile/new -> 200 status
+- UUID in collection -> 200 status
+- UUID not in collection -> 404 status
 
 Naming conventions:
 - JavaScript - Camel Case
