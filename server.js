@@ -3,8 +3,8 @@ const express = require('express')
 const fs = require('fs')
 const mongoClient = require('mongodb').MongoClient
 
-const dbFunctions = require('./db_functions')
-const databaseConnection = JSON.parse(fs.readFileSync('mongo_settings.json', 'utf8'))
+const dbFunctions = require('./functions/db_functions')
+const databaseConnection = JSON.parse(fs.readFileSync('./mongo_settings.json', 'utf8'))
 
 // constants
 const app = express()

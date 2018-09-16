@@ -54,8 +54,8 @@ module.exports = {
                 "firstName": "John",
                 "lastName": "Doe",
                 "age": 32,
-                "uuid": "4bef70d0-b9c1-11e8-b7cc-4bdef4ef6b65",
-                "_id": ObjectID("5b9e702035a207084de0b222")
+                "uuid": "d874cfb0-b9c5-11e8-b7c3-53c96f72b76f",
+                "_id": ObjectID("5b9e77c254f8140ae688c5df")
               }
             ]
           }

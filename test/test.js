@@ -6,7 +6,7 @@ const assert = require('assert')
 // MongoMock Connection
 mongodb.max_delay = 0
 const mongoMockClient = mongodb.MongoClient
-mongoMockClient.persist = 'mongo.js' // persist the data to disk
+mongoMockClient.persist = 'test/mongo_mock.js' // persist the data to disk
 const mockURL = 'mongodb://someserver/mock_database'
 const mockDB = 'EY_test'
 const mockCollection = 'user profiles'
@@ -15,8 +15,8 @@ describe('Running Tests for ....', function () {
   var server
   var dbFunctions
   beforeEach(function () {
-    server = require('./server')
-    dbFunctions = require('./db_functions')
+    server = require('../server')
+    dbFunctions = require('../functions/db_functions')
   })
   it('Valid username, first_name, last_name, age', function () {
     const response = dbFunctions.post_new_profile_entity(mongoMockClient, mockURL, mockDB,

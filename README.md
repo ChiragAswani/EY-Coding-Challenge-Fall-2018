@@ -3,14 +3,14 @@
 1. Run ```npm install``` to install node modules
 2. Run ``mongod`` to run a mongo server
 3. Add the mongo url to "dbURL" in mongo settings
-4. Run ```node server.js``` to run node server
+4. Run ```node server.js``` from the root directory to run node server
 5. Visit localhost:3000 or import the postman endpoints
 
 ### Running test cases
 
 ##### Quick Note
  - I used mongomock to mock a local mongo database so when I test the functions, it doesn't actually hit the real database. That is only done with the endpoint testing which is optional, but I included it anyways. This was a design choice I learned from previous internships
- 1. run ``npm test`` in the root directory
+ 1. run ``npm test`` from the root directory
 
 #### Styling:
 
@@ -37,6 +37,7 @@
 - User profiles: sample user profiles collection to import into the EY mongodb
 
 #### Design Choices
+- Instead of printing errors, I would normally create a folder for logs that would capture the ip, time, etc of the web server. I did not implement because I thought it might be an overkill
 - Database: I chose mongoDB because none of the data I am working with has any relationships.
 - Passing in a mongo client to function: I chose this because when I am testing the functions that require a MongoClient, I can pass in a mocked client or a testing database to test the functions without hitting the real database
 - mongo_settings.json- JSON file for database dependency. Should be .gitignored in production because you do not want to display any sensitive information. I would normally make this a .yaml file
